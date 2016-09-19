@@ -5,6 +5,7 @@
 
 1. Install Docker
 2. Install Docker ToolBox
+3. Run Docker Daemon
 
 ##To run:
 
