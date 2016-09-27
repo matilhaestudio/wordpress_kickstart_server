@@ -8,6 +8,9 @@ services:
       - 8080:80
     environment:
       WORDPRESS_DB_PASSWORD: example
+    working_dir: /var/www/html
+    volumes:
+      - ~/wordpress/wp_html:/var/www/html
 
   mysql:
     image: mariadb
